@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("Hello \n");
+	printf("Hello. This is ATmegOS!\n");
 	return 0;
 }
 
