@@ -1,3 +1,4 @@
 projects/*/bin
 projects/*/obj
-
+doc/output
+doc/typefriendly
