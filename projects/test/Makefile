@@ -1,3 +1,5 @@
+.PRECIOUS: obj/%.o
+
 all: bin/test
 bin/%: obj/test.o obj/dummy.o
 	gcc $^ -o $@
