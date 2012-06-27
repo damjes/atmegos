@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-#include "dummy.h"
+#include <dummy.h>
 
 int main()
 {
