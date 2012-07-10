@@ -1,1 +1,0 @@
-void plus(int, int);
