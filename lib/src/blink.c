@@ -3,10 +3,12 @@
 void blink()
 {
 	DDRA = 1;
+	DDRB = 1;
 	
-	for(;;)
+	while(1)
 	{
 		PORTA ^= 1;
-		_delay_ms(500);
+		PORTB ^= 1;
+		_delay_ms(100);
 	}
 }
